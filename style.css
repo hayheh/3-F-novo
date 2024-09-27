@@ -1,30 +1,24 @@
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <title>Document</title>
-<link rel="stylesheet" href=”style.css”>
-</head>
-<body>
+ @import
+url(‘https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap’);
 
-    <header>
-        <h1>Relatório das redes sociais</h1>
-        <nav>
-            <a href="index.html">Mundo</a>
-            <a href="#">Minha escola</a>
-        </nav>
-    </header>
+:root {
+    --bg-color: #222831;
+    --primary-color: #DDDDDD;
+    --secundary-color: #F05454;
+    --font: “Nunito Sans”, sans-serif;
+    }
 
-    <main class="graficos-section">
-        <section id="garficos-container" class="garficos-container"></section>
-        <!----crie os gráficos aqui -->
-    </section>
+    body {
+        background-color: var(--bg-color);
+        }
 
-    </main>
+        body {
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            font-family: var(--font);
+            }
 
-    <footer>
-        <p>Desenvolvido por Gieverson</p>
-    </footer>
-
-</body>
-</html>
+ header {
+    background-color: var(--primary-color);
+    text-align: center;
+ }
